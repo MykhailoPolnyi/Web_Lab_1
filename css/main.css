@@ -8,9 +8,7 @@
 body {
 	font-family: Rubik, sans-serif;
 	color: black;
-	margin: 0;
-	line-height: 1.5em;
-}
+	margin: 0;}
 
 header {
 	height: 60px;
@@ -118,6 +116,11 @@ ul {
 	padding: 6px;
 	border-radius: 100%;
 	box-shadow: 0 1em 1em lightgray;
+}
+
+.icon-ref>img {
+	width: 1.5em;
+	height: 1.5em;
 }
 
 button {
