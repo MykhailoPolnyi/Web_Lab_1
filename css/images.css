@@ -1,0 +1,22 @@
+.profile-avatar {
+	width: 3em;
+	height: auto;
+}
+
+.icon {
+	width: 1em;
+	height: 1em;
+}
+
+.icon-ref {
+	margin: 0.5em;
+	background-color: white;
+	padding: 6px;
+	border-radius: 100%;
+	box-shadow: 0 1em 1em lightgray;
+}
+
+.icon-ref>img {
+	width: 1em;
+	height: 1em;
+}
