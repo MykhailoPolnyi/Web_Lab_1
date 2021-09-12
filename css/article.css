@@ -16,12 +16,39 @@ article:hover {
 
 @media screen and (max-width: 800px) {
 	article {
+		height: auto;
 		width: 50%;
 	}
 }
 
 @media screen and (max-width: 500px) {
 	article {
+		height: auto;
 		width: 80%;
 	}
+}
+
+@media screen and (hover: hover){
+	article {
+		min-height: 3em;
+		overflow: hidden;
+	}
+
+	article > p {
+		display: none;
+	}
+
+	article:hover {
+		animation: show-whole-article 0.5s forwards;
+	}
+
+	article:hover > p{
+		display: block;
+	}
+}
+
+@keyframes show-whole-article {
+	from {height: 3em;}
+	to {height: 10em;}
+
 }
