@@ -1,7 +1,9 @@
 article {
+	position: relative;
 	margin: 1em;
 	padding: 1em;
 	width: 20%;
+	min-height: 10em;
 	background-color: white;
 	border: 1px solid lightgrey;
 	border-radius: 5px;

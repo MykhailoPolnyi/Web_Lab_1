@@ -28,9 +28,8 @@ section > img {
 
 @media screen and (max-width:  500px) {
 		section	{
-			flex-direction: column;
-			justify-content: space-evenly;
-			text-align: center;		 
+			text-align: center;		
+			min-height: 100vh;
 		}
 
 		ul {

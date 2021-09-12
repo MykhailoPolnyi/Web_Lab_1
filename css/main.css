@@ -25,5 +25,12 @@ ul {
 }
 
 .gradient-white-gray {
-	background-image: linear-gradient(#F6F5F5, #FFFFFF, #F4F3F3) ;
+	background-image: linear-gradient(#F4F3F3, #FFFFFF, #F6F5F5) ;
+}
+
+@media screen and (min-width: 2400px) {
+	.wide-screen-supportable{
+		width: 60%;
+		margin: auto;
+	}
 }
