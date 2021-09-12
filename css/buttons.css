@@ -1,0 +1,44 @@
+button {
+	text-align: center;
+	border: none;	
+	cursor: pointer;
+}
+
+.red-border-button {
+	background-color: inherit;
+	border: 1px solid #F53838;
+	color: #F53838;
+	border-radius: 20px;
+	width: 10em;
+	padding: 1em;
+}
+
+.clear-button {
+	background-color: inherit;
+	width: 10em;
+	padding: 1 em;
+}
+
+.red-button {
+	background-color: #F53838;
+	color: white;
+	border-radius: 8px;
+	width: 20em;
+	padding: 1.5em;
+	box-shadow: 0 1em 1em rgba(245, 56, 56, 0.35);
+	animation: background-gradient 5s ease-in-out infinite backwards;
+}
+
+@media screen and (max-width: 800px) {
+	.red-button {
+		width: 80%;
+	}
+}
+
+@keyframes background-gradient {
+	0% {background-color: #F53838;}
+	25% {background-color: #FFA500;}
+	50% {background-color: #FF4500;}
+	75% {background-color: #FF8C00;}
+	100% {background-color: #F53838;}
+}

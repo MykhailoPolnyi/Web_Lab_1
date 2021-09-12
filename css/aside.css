@@ -1,0 +1,59 @@
+aside {
+	padding: 0.5em;
+	position: fixed;
+	background-color: white;
+	width: 60%;
+	bottom: 8%;
+	left: 20%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+	aside {
+		position: static;
+		width: inherit;
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 0.5em;
+		border-radius: 0;
+		background-image: linear-gradient(#F6F5F5, #FFFFFF, #F4F3F3);
+		text-align: center;
+	}
+}
+
+@media screen and (hover: hover){
+	aside {
+		height: 18%;
+		overflow: hidden;
+		left: 40%;
+		width: 20%;
+	}
+
+	aside > button {
+		display: none;
+	}
+
+	aside:hover {
+		animation: show-whole-aside 0.5s forwards;
+	}
+
+	aside:hover > button{
+		display: block;
+	}
+}
+
+@keyframes show-whole-aside {
+	from {
+		width: 20%; 
+		left: 40%;
+	}
+	to {
+		width: 60%;
+		left: 20%;
+	}
+
+}
